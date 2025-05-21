@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace MonitoringService;
+namespace MonitoringService.Shared.Infrastructure.Persistence.EFC.Configuration;
 
 public partial class MonitoringContext : DbContext
 {
