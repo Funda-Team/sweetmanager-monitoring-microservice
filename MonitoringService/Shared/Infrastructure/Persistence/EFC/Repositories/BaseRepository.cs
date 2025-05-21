@@ -1,5 +1,6 @@
 ﻿using IamService.Shared.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
+using MonitoringService.Shared.Infrastructure.Persistence.EFC.Configuration;
 
 namespace MonitoringService.Shared.Infrastructure.Persistence.EFC.Repositories
 {
