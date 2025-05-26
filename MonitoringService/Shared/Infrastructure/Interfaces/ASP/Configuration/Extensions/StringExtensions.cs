@@ -7,9 +7,7 @@ namespace MonitoringService.Shared.Infrastructure.Interfaces.ASP.Configuration.E
         public static string ToKebabCase(this string text)
         {
             if (string.IsNullOrEmpty(text))
-            {
                 return text;
-            }
 
             return KebabCaseRegex().Replace(text, "-$1")
                 .Trim()

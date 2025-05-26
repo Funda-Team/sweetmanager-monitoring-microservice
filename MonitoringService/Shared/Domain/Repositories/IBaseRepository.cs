@@ -1,4 +1,4 @@
-﻿namespace IamService.Shared.Domain.Repositories
+﻿namespace MonitoringService.Shared.Domain.Repositories
 {
     public interface IBaseRepository<TEntity>
     {
