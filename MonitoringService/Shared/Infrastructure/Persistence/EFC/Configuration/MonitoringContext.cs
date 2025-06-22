@@ -78,6 +78,7 @@ namespace MonitoringService.Shared.Infrastructure.Persistence.EFC.Configuration
                 entity.ToTable("types_rooms");
 
                 entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.HotelsId).HasColumnName("hotels_id");
                 entity.Property(e => e.Description)
                     .HasMaxLength(200)
                     .HasColumnName("description");

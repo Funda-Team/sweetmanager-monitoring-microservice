@@ -7,6 +7,6 @@ namespace MonitoringService.Interfaces.REST.Transform.TypeRoom
     {
         public static CreateTypeRoomCommand ToCommandFromResource
             (CreateTypeRoomResource resource) =>
-            new(resource.Description, resource.Price);
+            new(resource.HotelId, resource.Description, resource.Price);
     }
 }

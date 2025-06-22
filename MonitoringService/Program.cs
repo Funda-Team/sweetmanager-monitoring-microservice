@@ -12,6 +12,8 @@ using MonitoringService.Shared.Domain.Repositories;
 using MonitoringService.Shared.Infrastructure.Interfaces.ASP.Configuration;
 using MonitoringService.Shared.Infrastructure.Persistence.EFC.Configuration;
 using MonitoringService.Shared.Infrastructure.Persistence.EFC.Repositories;
+using MonitoringService.Interfaces.ACL;
+using MonitoringService.Interfaces.ACL.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -61,6 +63,8 @@ builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<ITypeRoomCommandService, TypeRoomCommandService>();
 builder.Services.AddScoped<ITypeRoomQueryService, TypeRoomQueryService>();
 builder.Services.AddScoped<ITypeRoomRepository, TypeRoomRepository>();
+
+builder.Services.AddScoped<IMonitoringContextFacade, MonitoringContextFacade>();
 
 #endregion 
 

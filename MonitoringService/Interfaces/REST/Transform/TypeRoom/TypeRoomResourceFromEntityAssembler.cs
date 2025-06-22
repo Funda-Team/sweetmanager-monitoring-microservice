@@ -6,6 +6,7 @@ namespace MonitoringService.Interfaces.REST.Transform.TypeRoom
     {
         public static TypeRoomResource ToResourceFromEntity
             (Domain.Model.Entities.TypeRoom entity) =>
-            new(entity.Id, entity.Description, entity.Price);
+            new(entity.Id, entity.HotelsId ?? 0,
+                entity.Description, entity.Price);
     }
 }
