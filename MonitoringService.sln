@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringService", "MonitoringService\MonitoringService.csproj", "{2E11D985-4FF7-4CA2-86C6-4CA4EBF73AD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringService.Tests", "MonitoringService.Tests\MonitoringService.Tests.csproj", "{1F4C13B8-2319-49BB-A88D-E856DA635ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2E11D985-4FF7-4CA2-86C6-4CA4EBF73AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E11D985-4FF7-4CA2-86C6-4CA4EBF73AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E11D985-4FF7-4CA2-86C6-4CA4EBF73AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4C13B8-2319-49BB-A88D-E856DA635ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4C13B8-2319-49BB-A88D-E856DA635ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4C13B8-2319-49BB-A88D-E856DA635ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4C13B8-2319-49BB-A88D-E856DA635ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
